@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Positioning using CSS</title>
+    <style>
+        * {
+            margin: 0;
+
+        }
+        body {
+            box-sizing: border-box;
+            padding-top: 76px;
+
+
+        }
+        .nav {
+            position: fixed;
+            box-sizing: border-box;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 80px;
+            background: white;
+            border-bottom: 3px solid black;
+            box-shadow: 8px 8px 8px 8px black;
+        }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: black;
+            position: absolute;
+            right: 0;
+
+        }
+        .content {
+             height: 800px;
+            background: gray;
+            border-bottom: black;
+
+
+        }
+        .box {
+            height: 200px;
+            width: 200px;
+            background: white;
+            margin: 20px;
+        }
+        .footer {
+
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            height: 80px;
+            background: white;
+            border-top: 2px solid black ;
+        }
+        div.footer h1  {
+            color: black;
+            text-align: center;
+        }
+
+    </style>
+
+</head>
+<body>
+
+    <div class="nav">
+        <div class="logo">
+    hiii
+        </div>
+    </div>
+
+    <div class="content">
+        <div class="box">
+
+        </div>
+
+        <div class="box">
+
+        </div>
+
+        <div class="box">
+
+        </div>
+
+        <div class="box">
+
+        </div>
+
+    </div>
+    <div class="footer">
+        <h1>Copyright 2021</h1>
+    </div>
+
+</body>
+</html>
